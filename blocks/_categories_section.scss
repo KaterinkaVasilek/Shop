@@ -1,0 +1,52 @@
+.category {
+    &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    &__item {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-blend-mode: multiply;
+        background-color: rgba(33, 22, 22, .7);
+        &:not(:last-child) {
+                width: 360px;
+                margin: 0;
+                margin-top: 65px;
+                height: 260px;
+                margin-bottom: 30px;
+            }
+        &-image_1 {
+            background-image: url(img/women.png);
+            background-repeat: no-repeat;
+        }
+        &-image_2 {
+            background-image: url(img/men.png);
+            background-repeat: no-repeat;
+        }
+        &-image_3 {
+            background-image: url(img/kids.png);
+            background-repeat: no-repeat;
+        }
+        &-image_4 {
+            background-image: url(img/accesories.png);
+            background-repeat: no-repeat;
+        }
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        &-span {
+            font-size: 24px;
+            line-height: 29px;
+            font-weight: 700;
+            color: #F16D7F;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+$same_blocks_bckg: #000;
+$intro_bckg: #e8e8e8;
+
+* {
+    margin: auto;
+    padding: 0;
+    max-width: 1600px;
+    font-family: "Lato" sans-serif;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1160px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}  
+details ul {
+    list-style: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+details[open] .filter__category__text {
+    margin-bottom: 25px;
+}
+@import "blocks/header";
+@import "blocks/burger-menu";
+@import "blocks/intro";
+@import "blocks/categories_section";
+@import "blocks/filters_pop-up";
+@import "blocks/filter_categories";
+@import "blocks/featured_items";
+@import "blocks/advantage";
+@import "blocks/subscribe";
+@import "blocks/form";
+@import "blocks/footer";
+@import "blocks/card_info";
+@import "blocks/descriprion";
+@import "blocks/cart";
+@import "blocks/registration";

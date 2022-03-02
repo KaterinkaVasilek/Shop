@@ -1,0 +1,34 @@
+.card__info {
+    min-height: 777px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    &-slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-button {
+        background: rgba(42, 42, 42, 0.15);
+        padding: 13px 17px 13px 17px;
+        width: 47px;
+        height: 47px;
+        position: absolute;
+        &:hover {
+            color: #F16D7F;
+        }
+        &:active {
+            background-color: #000;
+        }
+        &-left {
+            cursor: pointer;
+            left: 5px;
+        }
+        &-right {
+            cursor: pointer;
+            right: 5px;
+        }
+    }
+}

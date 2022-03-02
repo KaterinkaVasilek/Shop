@@ -1,0 +1,78 @@
+.registration {
+    height: 675px;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    &__form {
+        display: flex;
+        flex-direction: column;
+        &-header {
+            font-size: 16px;
+            line-height: 19px;
+            color: #222222;
+            margin-left: 0;
+        }
+        &-text {
+            font-size: 13px;
+            line-height: 16px;
+            color: #B1B1B1;
+            padding-left: 17px;
+            width: 360px;
+            height: 44px;
+            &-padding {
+                padding-left: 0;
+                padding-top: 15px;
+            }
+        }
+        &-radio {
+            margin-left: 0;
+            &-input {
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 13px;
+            color: #000000;
+            margin-top: 31px;
+            margin-bottom: 34px;
+            }
+        }
+        &-btn {
+            background: #F16D7F;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            width: 167px;
+            height: 50px;
+            border: none;
+            margin-top: 39px;
+            transition: 0.4s;
+            margin-left: 0;
+            &:hover {
+                border-radius: 25px;
+            }
+        }
+    }
+    & input {
+        margin-top: 21px;
+    }
+}
+.loyalty {
+    margin-left: 128px;
+    margin-top: 64px;
+    &__header {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        width: 652px;
+    }
+    &__text {
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 22px;
+    }
+    & ul {
+        list-style: none;
+    }
+    & ul li svg {
+        padding-right: 22px;
+    }
+}

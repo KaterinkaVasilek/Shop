@@ -1,0 +1,77 @@
+.intro {
+    min-height: 764px;
+    background-color: #F1E4E6;
+    &__wrap {
+        height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+            &-brand {
+                font-size: 37px;
+                line-height: 45px;
+            }
+            &-lux {
+                font-size: 32px;
+                line-height: 40px;
+            }
+            &-decor {
+                color: #F16D7F;
+            }
+    }
+    &__image {
+        background-image: url("img/man.png");
+    background-repeat: no-repeat;
+    background-position: -218px;
+    width: 801px;
+    height: 764px;
+    }
+    &__text {
+        border-left: 12px solid #F16D7F;
+    padding-left: 20px;
+    max-width: 405px;
+    -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: "Lato" sans-serif;
+    }
+    &__block {
+        min-height: 148px;
+        background-color: #F1E4E6;
+        &-wrap {
+            height: 100%;
+            }
+        &-text {
+                display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            padding-top: 59px;
+                & h1 {
+                    font-size: 24px;
+                    line-height: 29px;
+                    font-weight: 300;
+                    color: #F16D7F;
+                    margin-left: 0;
+                }
+                & p {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #636363;
+                    margin-right: 0;
+                }
+                &-span {
+                    color: #ff6a6a;
+                }
+            }
+        }
+    }

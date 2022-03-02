@@ -1,0 +1,28 @@
+.form__input {
+    margin-top: 32px;
+    border-radius: 25px;
+    background-color: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    &__field {
+        width: 256px;
+        height: 49px;
+        background-color: #E1E1E1;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        color: #222224;
+        opacity: 0.67;
+        margin: 0 6px 0 22px;
+        border: none;
+    }
+    &__button {
+        width: 100px;
+        height: 49px;
+        border: none;
+        cursor: pointer;
+        border-radius: 0 25px 25px 0;
+        color: #fff;
+        background-color: #F16D7F;
+    }
+}
